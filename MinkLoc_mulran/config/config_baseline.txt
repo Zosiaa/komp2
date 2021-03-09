@@ -1,7 +1,7 @@
 [DEFAULT]
 num_points = 65536
 
-dataset_folder = /home/sophie/venv/minkloc3d/inz/komp/MinkLoc_mulran/Ouster_sample
+dataset_folder = /home/sophie/venv/minkloc3d/inz/komp2/MinkLoc_mulran/Ouster_sample
 
 [TRAIN]
 num_workers = 1
