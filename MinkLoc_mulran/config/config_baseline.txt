@@ -4,10 +4,10 @@ num_points = 65536
 dataset_folder = /home/sophie/venv/minkloc3d/inz/komp2/MinkLoc_mulran/Ouster_sample
 
 [TRAIN]
-num_workers = 1
+num_workers = 4
 batch_size = 4
 batch_size_limit = 32
-batch_expansion_rate = 1.2
+batch_expansion_rate = 1.4
 batch_expansion_th = 0.7
 
 lr = 1e-7
