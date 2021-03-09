@@ -173,11 +173,11 @@ def do_train(dataloaders, params: MinkLocParams, debug=False, visualize=False):
             # ******* PHASE END *******
             # Compute mean stats for the epoch
             epoch_stats = {}
-            """for key in running_stats[0].keys():
+            for key in running_stats[0].keys():
                 temp = [e[key] for e in running_stats]
                 epoch_stats[key] = np.mean(temp)
 
-            stats[phase].append(epoch_stats)"""
+            stats[phase].append(epoch_stats)
             print_stats(epoch_stats, phase)
 
         # ******* EPOCH END *******
